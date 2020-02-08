@@ -1,0 +1,26 @@
+div {
+	height: 235px;
+	width: 455px;
+	background: linear-gradient(to right, #9c9e9f 0%, #9c9e9f 50%, #f6f6f6 50%, #f6f6f6 100%);
+	
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	opacity: 0.6;
+	
+	font-weight: bold;
+	font-style: italic;
+	font-size: 22px;
+	
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+subheading{
+	font-weight: regular;
+	font-size: 15px;
+	font-style: normal;
+}
+
