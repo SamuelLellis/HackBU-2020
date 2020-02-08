@@ -15,21 +15,21 @@
 	</center>
 	
 
-	<button class="button button1"><i><span>Aquarius</i></button>
-	<button class="button button2"><i><span>Pisces</i></button>
-	<button class="button button3"><i><span>Aries</i></button>
-	<button class="button button4"><i><span>Taurus</i></button>
+	<button class="button button1"<button onclick="getString()"><i><span>Aquarius</i></button>
+	<button class="button button2"<button onclick="getString()"><i><span>Pisces</i></button>
+	<button class="button button3"<button onclick="getString()"><i><span>Aries</i></button>
+	<button class="button button4"<button onclick="getString()"><i><span>Taurus</i></button>
 
-	<button class="button button5"><i><span>Gemini</i></button>
-	<button class="button button6"><i><span>Cancer</i></button>
+	<button class="button button5"<button onclick="getString()"><i><span>Gemini</i></button>
+	<button class="button button6"<button onclick="getString()"><i><span>Cancer</i></button>
 	
-	<button class="button button7"><i><span>Leo</i></button>
-	<button class="button button8"><i><span>Capricorn</i></button>
-	<button class="button button9"><i><span>Libra</i></button>
+	<button class="button button7"<button onclick="getString()"><i><span>Leo</i></button>
+	<button class="button button8"<button onclick="getString()"><i><span>Capricorn</i></button>
+	<button class="button button9"<button onclick="getString()"><i><span>Libra</i></button>
 	
-	<button class="button button10"><i><span>Scorpio</i></button>
-	<button class="button button11"><i><span>Sagittarius</i></button>
-	<button class="button button12"><i><span>Virgo</i></button>
+	<button class="button button10"<button onclick="getString()"><i><span>Scorpio</i></button>
+	<button class="button button11"<button onclick="getString()"><i><span>Sagittarius</i></button>
+	<button class="button button12"<button onclick="getString()"><i><span>Virgo</i></button>
 
 
 	</p></div>
@@ -39,7 +39,8 @@
 body{
 	background-image: url("electric.png");
 }
-.button{
+.button{ 
+	onclick: getString();
 	background-color: #C4D3D1;
 	cursor: pointer;
 	display: inline-block;
@@ -79,7 +80,7 @@ body{
 	background: #C4D3D1
 }
 .button1 {
-	
+	button onclick="getString()"
 }
 .button2 {
 	
@@ -116,4 +117,9 @@ body{
 }
 </style>
 
+<script>
+function getString(){
+	console.log("Test");
+}
+</script>
 </html>
