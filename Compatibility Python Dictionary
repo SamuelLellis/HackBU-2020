@@ -1,7 +1,7 @@
 import xlrd
 
-workbook = xlrd.open_workbook('c:/users/zerga/downloads/signs.xlsx')
-workbook = xlrd.open_workbook('c:/users/zerga/downloads/signs.xlsx', on_demand = True)
+workbook = xlrd.open_workbook('c:/users/zerga/downloads/compatibility.xlsx')
+workbook = xlrd.open_workbook('c:/users/zerga/downloads/compatibility.xlsx', on_demand = True)
 worksheet = workbook.sheet_by_index(0)
 first_row = [] # The row where we stock the name of the column
 for col in range(worksheet.ncols):
