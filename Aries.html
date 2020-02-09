@@ -4,13 +4,23 @@
 		<meta charset="utf-8">
 		<link rel= "stylesheet" href="style.css"> 
 		<title> Aries </title>
+		<script>
+        fetch('http://api.markovzodiac.xyz/horoscope/')
+			.then((response) => {
+				return response.text();
+			})
+			.then((myJson) => {
+				document.getElementById("horoscopeDiv").innerHTML = myJson;
+				console.log(document.getElementById("horoscopeDiv").innerHTML);	
+			});
+</script>
 	</head>
 <body>
 
 	<div> <p><center>
 	Your Horoscope...<br/>
 	
-	<subheading> HERE IS WHERE THE HOROSCOPE GOES </subheading><br/>
+	<subheading id="horoscopeDiv">  </subheading><br/>
 	</center>
 	<button class="button"<i><a href ="test.html"><span>Return</i></button>
 	</p></div>
