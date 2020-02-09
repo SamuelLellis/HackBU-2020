@@ -80,7 +80,7 @@ body{
 	background: #C4D3D1
 }
 .button1 {
-	button onclick="getString()"
+	
 }
 .button2 {
 	
@@ -119,7 +119,20 @@ body{
 
 <script>
 function getString(){
-	console.log("Test");
+	alert("Test");
+/*
+	fetch('./data.json')
+		.then(response => {
+			return response.json()
+		})
+		.then(data => {
+		//this is where I do stuff with data
+		console.log(data)
+		})
+		.catch(err => {
+		//error catching here
+		})
+*/
 }
 </script>
 </html>

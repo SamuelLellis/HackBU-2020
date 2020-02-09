@@ -4,11 +4,11 @@ div {
 	background: linear-gradient(to right, #9c9e9f 0%, #9c9e9f 50%, #f6f6f6 50%, #f6f6f6 100%);
 	
 	position: fixed;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	margin-top: -100px;
 	margin-left: -200px;
-	opacity: 0.6;
+	opacity: 0.8;
 	
 	font-weight: bold;
 	font-style: italic;
