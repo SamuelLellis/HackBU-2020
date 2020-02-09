@@ -1,7 +1,7 @@
 div {
-	height: 235px;
-	width: 460px;
-	background: linear-gradient(to right, #9c9e9f 0%, #9c9e9f 10%,#9c9e9f 30%, #9c9e9f 50%,#9c9e9f 70%, #9c9e9f 90%,#9c9e9f 70%,#9c9e9f 50%,#9c9e9f 30%,#9c9e9f 10%);
+	height: 275px;
+	width: 475px;
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 10%,#ffffff 30%, #ffffff 50%,#ffffff 70%, #ffffff 90%,#ffffff 70%,#ffffff 50%,#ffffff 30%,#ffffff 10%);
 	
 	position: fixed;
 	top: 45%;
@@ -12,7 +12,7 @@ div {
 	
 	font-weight: bold;
 	font-style: italic;
-	font-size: 22px;
+	font-size: 40px;
 	
 	border: 3px solid black;
 	border-radius: 10px;
